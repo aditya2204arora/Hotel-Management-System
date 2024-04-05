@@ -1,0 +1,8 @@
+- name: Installing Java, Jenkins, Docker and SonarQube
+  hosts: <ENTER YOUR HOST>
+  become: true
+  gather_facts: no
+  roles:
+     - java_install
+     - jenkins_install
+     - docker_install

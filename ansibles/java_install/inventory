@@ -1,0 +1,2 @@
+[remote_server]
+SlaveVM ansible_user=sanghamitra ansible_password=riadasgupta@301 ansible_become_password=riadasgupta@301
