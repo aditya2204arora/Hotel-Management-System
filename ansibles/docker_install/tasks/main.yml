@@ -57,10 +57,20 @@
 
 - name: Add user to Docker group
   user:
-      name: "{{ ansible_user }}"
+      name: "{{ ansible_user }}" 
       groups: docker
       append: true
+#- name: Add user to Docker group
+#   user:
+#       name: your-username
+#       groups: docker
+#       append: true
 
+- name: Add user to Docker group
+   user:
+       name: docker
+       groups: docker
+       append: true
 - name: Enable and start Docker services
   systemd:
       name: "{{ item }}"
