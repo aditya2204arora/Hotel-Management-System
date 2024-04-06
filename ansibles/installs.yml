@@ -1,5 +1,7 @@
 - name: Installing Java, Jenkins, Docker and SonarQube
   hosts: <ENTER YOUR HOST>
+# hosts: localhost
+# connection: local
   become: true
   gather_facts: no
   roles:
