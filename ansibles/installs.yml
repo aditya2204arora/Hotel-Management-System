@@ -8,4 +8,4 @@
      - java_install
      - jenkins_install
      - docker_install
-     - sonarqube_install
+
