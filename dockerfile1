@@ -16,3 +16,4 @@ COPY src /app/src
 COPY pom.xml /app/
 COPY target /app/target
 WORKDIR /app
+CMD ["java","-jar","target/Hotel.jar"]
